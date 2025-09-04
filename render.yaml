@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: lunaar-org
+    env: node
+    plan: free
+    repo: https://github.com/VIN07grinder/VboisOfficial2
+    branch: main
+    rootDir: .  # Adjust if your app lives in a subfolder
+    buildCommand: pnpm install
+    startCommand: pnpm start
+    envVars:
+      - key: NODE_ENV
+        value: production
