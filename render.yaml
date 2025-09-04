@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: lunaar-org
+    name: Vbois-Games
     env: node
     plan: free
     repo: https://github.com/VIN07grinder/VboisOfficial2possiblythemainone
