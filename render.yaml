@@ -3,7 +3,7 @@ services:
     name: lunaar-org
     env: node
     plan: free
-    repo: https://github.com/VIN07grinder/VboisOfficial2
+    repo: https://github.com/VIN07grinder/VboisOfficial2possiblythemainone
     branch: main
     rootDir: .  # Adjust if your app lives in a subfolder
     buildCommand: pnpm install
